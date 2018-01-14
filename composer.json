@@ -1,0 +1,25 @@
+{
+    "name": "yii2x/yii2-auth-ui-ext",
+    "description": "Yii2 Sencha Modern Authentication and Authorization User Interface.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","auth","ui"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Yuriy Basov",
+            "email": "w3devlab@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yii2x/auth": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2x\\auth\\ui\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "yii2x\\auth\\ui\\Bootstrap"
+    }      
+}
